@@ -1,25 +1,135 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ヘ_ットアフ_リ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景.jpg" id="7XN-Vf-JMd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="normal.png" id="jx5-qE-fLd">
+                                <rect key="frame" x="10" y="261" width="300" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="VmS-YT-gsq">
+                                <rect key="frame" x="20" y="335" width="100" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="h2t-yY-1iq" appends="YES" id="Bxf-zP-Xr9"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="zbc-Nc-wqE">
+                                <rect key="frame" x="248" y="272" width="62" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3gI-aQ-WFU" appends="YES" id="XIM-T0-I0d"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="Mrq-qY-tkg">
+                                <rect key="frame" x="15" y="272" width="110" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="JB7-Iq-xa1" appends="YES" id="bs6-g3-IRv"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="fRm-lL-zjf">
+                                <rect key="frame" x="112" y="345" width="179" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="U40-G0-7FL" appends="YES" id="0dW-ix-Oen"/>
+                                    <outletCollection property="gestureRecognizers" destination="6wv-eQ-Pcv" appends="YES" id="cka-2D-GY0"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ワンワン" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u5m-Wg-gL9">
+                                <rect key="frame" x="15" y="232" width="131" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="く〜〜ん" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PUR-AI-xeP">
+                                <rect key="frame" x="130" y="241" width="122" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="HrG-CB-hJp">
+                                <rect key="frame" x="89" y="478" width="202" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="i5J-Sk-7tI" appends="YES" id="ViK-3n-pLf"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="LP7-ya-YRh" appends="YES" id="Ulu-AF-8te"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="dogImageView" destination="jx5-qE-fLd" id="3tp-iq-N4I"/>
+                        <outlet property="kuunLabel" destination="PUR-AI-xeP" id="AE9-xT-mtj"/>
+                        <outlet property="wanwanLabel" destination="u5m-Wg-gL9" id="Xdl-pg-cGE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="h2t-yY-1iq" userLabel="鼻タップ">
+                    <connections>
+                        <action selector="tapNose:" destination="BYZ-38-t0r" id="LYu-Id-nLg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="LP7-ya-YRh" userLabel="背景タップ">
+                    <connections>
+                        <action selector="tapBackground:" destination="BYZ-38-t0r" id="68k-Xl-5PH"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="3gI-aQ-WFU" userLabel="尻尾タップ">
+                    <connections>
+                        <action selector="tapTail:" destination="BYZ-38-t0r" id="AQX-A6-PQj"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="JB7-Iq-xa1" userLabel="頭スワイプ">
+                    <connections>
+                        <action selector="swipeHead:" destination="BYZ-38-t0r" id="auF-JP-AzL"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="U40-G0-7FL" userLabel="お腹スワイプ">
+                    <connections>
+                        <action selector="swipeStomach:" destination="BYZ-38-t0r" id="vs5-pU-3hh"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="6wv-eQ-Pcv" userLabel="お腹左スワイプ">
+                    <connections>
+                        <action selector="swipeLeftStomach:" destination="BYZ-38-t0r" id="vNn-bb-pK3"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <tapGestureRecognizer id="i5J-Sk-7tI" userLabel="足をタップ">
+                    <connections>
+                        <action selector="tapFoot:" destination="BYZ-38-t0r" id="WGQ-fF-Atq"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="153" y="316"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="normal.png" width="300" height="268"/>
+        <image name="背景.jpg" width="230" height="368"/>
+    </resources>
 </document>
